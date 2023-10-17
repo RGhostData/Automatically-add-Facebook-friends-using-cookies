@@ -5,7 +5,7 @@ import os
 os.system(f"title Auto Friend")
 os.system('cls') 
 print('\033[92m')
-cookie = input('Nhập cookie: ')
+cookie = input('Enter cookie: ')
 if 'c_user=' in cookie:
     tg = input('Nhập thời gian delay sau mỗi lần (s): ')
     list = open('uid.txt', 'r')
